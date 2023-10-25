@@ -40,7 +40,7 @@ clear_buttom = Button(root, text='Clear', width= 10)
 clear_buttom.grid(row=4, column=1,pady=6)
 add_buttom.bind("<Button-1>",create_task)
 clear_buttom.bind("<Button-1>",delete_all_task)
-root.config(background='yellow')
+root.config(background='orange')
 clear_buttom.config(background='blue')
 
 
